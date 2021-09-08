@@ -1,0 +1,13 @@
+{
+    "short_name": "React Portfolio",
+    "name":"React Portfolio",
+    "icons": [
+        {
+            
+        }
+    ],
+    "start_url":".",
+    "display":"standalone",
+    "theme-color": "#000000",
+    "background_color": "#ffffff"
+}

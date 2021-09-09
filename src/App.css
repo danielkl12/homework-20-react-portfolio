@@ -12,9 +12,90 @@
     color: black;
 
 }
+#root {
+
+    background-image: url("./IMG_2018.jpg");
+    background-position: 'center';
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+    
+  
+
+}
+
+
 
 .item-img {
     height: 300px;
-    width: 300px;
+    width: 400px;
+    border: solid black 2px;
+    border-radius: 5px;
 }
+
+.picture {
+    height: 300px;
+    width: 400px;
+    border: solid black 2px;
+    border-radius: 5px;
+    margin-right: 500px;
+}
+
+.responsive-headline {
+    font-size: 30px;
+    
+}
+
+.columns {
+    
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-right: 900px;
+    
+
+
+  }
+/* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+ /* Links inside the dropdown */
+ .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+   /* Change color of dropdown links on hover */
+   .dropdown-content a:hover {background-color: #ddd;}
+  
+   /* Show the dropdown menu on hover */
+   .dropdown:hover .dropdown-content {display: block;}
+   
+   /* Change the background color of the dropdown button when the dropdown content is shown */
+   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+/* 
+IDs
+*/
+
 

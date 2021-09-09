@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+
 import "../App.css"
 export default class Projects extends Component {
     render() {
@@ -17,8 +18,13 @@ export default class Projects extends Component {
                                             <img src={`${item.imgurl}`} className="item-img" alt="projects"/>
                                             <div className="overlay">
                                                 <div className="portfolio-item">
+                                                    <article>{item.link}</article>
+                                                    
                                                     <h4>{item.name}</h4>
                                                     <p>{item.description}</p>
+
+                                                    
+                                                    
                                                 </div>
                                             </div>
                                         </div>

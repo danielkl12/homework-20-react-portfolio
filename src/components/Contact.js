@@ -6,18 +6,12 @@ export default class Contact extends Component {
             <section id="contact">
                 <div className="row sections-head">
                     <div className="ten columns">
-                        <p className="header">
-                            Please contact for work
-                        </p>
+                        
                     </div>
                 </div>
-                <div className="row">
-                    <aside className="six columns">
-                        <div className="widget">
-                            <h3>LinkedIn:{portfolioData.linkedinID}</h3>
-                        </div>
-                    </aside>
-                </div>
+                
+                    
+                
             </section>
         );
     }

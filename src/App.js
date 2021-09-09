@@ -5,8 +5,11 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import portfolioData from './data';
+// import axios from 'axios';
 
 class App extends Component {
+
+    
     render() {
         return(
             <div className="App">
@@ -16,13 +19,16 @@ class App extends Component {
                 <Projects portfolioData={portfolioData}/>
                 <Resume portfolioData={portfolioData}/>
             </div>
-        );
+            
+        )
+
     }
+    
 }
 
-
-
 export default App;
+
+
 
 // export default function App() {
 //     return (

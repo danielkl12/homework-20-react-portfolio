@@ -17,7 +17,7 @@ let portfolioData = {
             "className":"github",
         }
     ],
-    "aboutme":" Front end developer. I am a current student in the University of Minnesota's coding boot camp. I have a previous educational background in economics and english and have worked in sales and finance. I have skills in HTML, CSS, Javascript, ReactJS, and NodeJS.",
+    "aboutme":" Front end developer. I am a current student in the University of Minnesota's coding boot camp. I have a previous educational background in economics and english and have worked in sales and finance. I have skills in HTML, CSS, Javascript, ReactJS, and NodeJS. Please take time to review my below projects and experience!",
     "address": "5512 34th Avenue South, Minneapolis, MN 55417",
     "website": "https://github.com/danielkl12",
     "education":[
@@ -38,12 +38,12 @@ let portfolioData = {
         {
             "company": "Allianz",
             "role": "Variable Annuities CSR",
-            "dateOfLeave":"December, 2020"
+            "dateOfLeave":"April 2020 - December 2021"
         },
         {
             "company": "Kare 11 - Tegna",
             "role": "National Sales Assistant",
-            "dateOfLeave": "January, 2020"
+            "dateOfLeave": "June 2018 - January, 2020"
         }
     ],
 
@@ -67,27 +67,33 @@ let portfolioData = {
     "projects":[
         {
             "name": "Snaccidental Recipe",
-            "description": "Recipe Web Application",
+            "description": "Recipe Web Application that uses an API to search the web for recipes following specific user input parameters.",
             "imgurl": "./images/snaccidentalrecipe.jpg",
             "link":"https://dillon-smith-us.github.io/snaccidental-recipe/"
         },
         {
             "name": "Trivalympics",
-            "description": "Trivia Game",
+            "description": "Trivia Game. Test your knowledge!",
             "imgurl": "./images/codingland.jpg",
             "link": "https://young-harbor-83683.herokuapp.com/characterChoice"
         },
         {
             "name": "Day Planner",
-            "description": "Day Planner Web Application",
+            "description": "Day Planner Web Application. This application will show color coded text fields for past, present, and future tasks for organization and time management.",
             "imgurl":"./images/dayplanner.jpg",
             "link":"https://danielkl12.github.io/homework-05-day-planner/"
         },
         {
             "name": "Password Generator",
-            "description": "Password Generator Web Application",
+            "description": "Password Generator Web Application. This application can be used to generate a password with selectable character types between 8 and 128 characters.",
             "imgurl":"./images/screenshot2.jpg",
             "link":"https://danielkl12.github.io/password-generator-hw03/"
+        },
+        {
+            "name": "Budget Tracker",
+            "description": "Budget Tracker Web Application. This application operates online and offline.",
+            "imgurl": "./images/screenshot1.jpg",
+            "link": "https://danielkl12.github.io/homework-19-online-offline-budget-tracker/"
         }
     ]
 

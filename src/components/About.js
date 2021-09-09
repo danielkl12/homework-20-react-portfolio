@@ -46,7 +46,7 @@ export default class About extends Component {
                     </div> */}
 
                     <p className="scrolldown">
-                        <a></a>
+                        
                     </p> 
                     
 
@@ -73,20 +73,7 @@ export default class About extends Component {
 
                         </p>
 
-                        <div className="row">
-                            <div className="columns contact-details">
-                                <h2>Contact Details</h2>
-                                <p className="address">
-                                    <span>{portfolioData.name}</span>
-                                    <br></br>
-                                    <span>{portfolioData.address}</span>
-                                    <br></br>
-                                    <span>{portfolioData.website}</span>
-                                    <br></br>
-                                    <span>{portfolioData.linkedinID}</span>
-                                </p>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>

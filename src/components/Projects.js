@@ -13,7 +13,7 @@ export default class Projects extends Component {
                             {
                                 portfolioData.projects && portfolioData.projects.map((item) => {
                                     return(
-                                        <div className="columns portfolio-item">
+                                        <div className="columns-portfolio-item">
                                             <div className="wrap">
                                             <img src={`${item.imgurl}`} className="item-img" alt="projects"/>
                                             <div className="overlay">
